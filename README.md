@@ -20,8 +20,8 @@ demarrage.
 
 ## Donnees collectees
 
-126 series (122 actions + 4 indices de reference), 2 ans d'historique
-journalier, soit environ 63 000 cotations pour 6 Mo de CSV.
+136 series (132 actions + 4 indices de reference), 2 ans d'historique
+journalier, soit environ 68 500 cotations pour 6,3 Mo de CSV.
 
 Chaque fichier `data/raw/<SLUG>.csv` suit le meme schema :
 
