@@ -1,0 +1,18 @@
+# Theme de l'application.
+# Les couleurs sont alignees sur celles des figures Plotly (bourse/charts.py) :
+# la surface de graphique et le fond de page sont volontairement identiques
+# pour que les figures ne dessinent pas de rectangle visible sur la page.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"            # slot categoriel 1
+backgroundColor = "#fcfcfb"         # surface de graphique
+secondaryBackgroundColor = "#f0efec" # barre laterale et cartes
+textColor = "#0b0b0b"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Les CSV sont lus au demarrage : inutile de surveiller le dossier data/.
+folderWatchBlacklist = ["data"]

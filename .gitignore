@@ -1,0 +1,35 @@
+# --- Secrets & configuration locale ---
+.env
+.env.local
+*.env.bak
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Donnees ---
+# ATTENTION : data/raw/*.csv est VERSIONNE volontairement.
+# Streamlit Cloud n'execute pas le script de collecte : les CSV doivent
+# etre presents dans le depot. On ignore uniquement les artefacts temporaires.
+data/**/*.tmp
+data/**/*.partial
+logs/
